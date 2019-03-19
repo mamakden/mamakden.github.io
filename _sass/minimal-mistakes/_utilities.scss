@@ -189,7 +189,11 @@ body:hover .visually-hidden button {
   .fal {
     color: $text-color;
   }
-
+  
+  .fa-at {
+    color: $g-plus-color;
+    }    
+    
   .fa-behance,
   .fa-behance-square {
     color: $behance-color;
@@ -280,6 +284,10 @@ body:hover .visually-hidden button {
   .fa-twitter-square {
     color: $twitter-color;
   }
+    
+  .fa-whatsapp {
+     color: $whatsapp-color;
+    }
 
   .fa-vimeo,
   .fa-vimeo-square,

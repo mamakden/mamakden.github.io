@@ -16,17 +16,17 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Mamak Den Rendang Artisan"
+title                    : "Mamak Den Rendang Paru"
 title_separator          : "-"
-name                     : "Mamak Den Rendang Artisan"
+name                     : "Mamak Den Rendang Paru"
 email                    : mamakden2019@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Web site ini segala hal mengenai Mamak Den dan rendang
+  Web site ini segala hal mengenai Mamak Den dan rendang paru
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "/images/logo2.jpg"# path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -153,7 +153,21 @@ footer:
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url:
+      url: "https://www.instagram.com/restywijaya"
+      
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://www.instagram.com/rendangmamakden/"
+      
+    - label: "Email"
+      icon: "fas fa-at"
+      url: mailto:mamakden2019@gmail.com
+      
+    - label: "WhatsApp"
+      icon: "fab fa-whatsapp"
+      url: https://wa.me/6285780380398
+      
+    
 
 
 # Reading Files
