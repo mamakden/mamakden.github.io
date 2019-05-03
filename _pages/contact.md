@@ -9,11 +9,12 @@ header:
 ---
 ![full]({{site.banner}}){: .full}
 
-<div >
-    <div >
-    <li class="fas fa-at" href="mailto:mamakden2019@gmail.com"></li>  mamakden2019@gmail.com<br>
-    <a class="fab fa-whatsapp" href="https://wa.me/6285780380398"></a>  6285780380398<br>
-    <a class="fab fa-fw fa-instagram" href="https://www.instagram.com/restywijaya/"></a> IG1<br>
-    <a class="fab fa-fw fa-instagram" href="https://www.instagram.com/rendangmamakden/"></a> IG2
-    </div>
+<div> 
+<ul class="social-icons" style="list-style: none;">
+{% for link in site.footer.links %}
+    {% if link.label and link.url %}
+    <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer" STYLE="text-decoration: none"><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i> {{ link.label2 }}</a></li>
+    {% endif %}
+{% endfor %}
+</ul>
 </div>
